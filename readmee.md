@@ -1,4 +1,4 @@
-Configuration
+# Configuration
 Create a project named pythonic-garage-band
 
 Repository set-up
@@ -11,11 +11,11 @@ Start with Guitarist,Bassist, and Drummer.
 
 Make use of a Musician base class to handle common functionality which particular kinds of musicians will inherit.
 
-User Acceptance Tests
+# User Acceptance Tests
 
 Unit tests will be supplied for this lab. Your job is to make them pass. Do NOT modify the supplied tests (except to enable for stretch goals.)
 
-Band Tests
+# Band Tests
 
 A Band instance should have a name attribute which is a string.
 A Band instance should have a members attribute which is a list of instances that inherit from Musician base (or super) class.
@@ -27,8 +27,8 @@ Musician Subclass Tests
 Each kind of Musician instance should have appropriate __str__ and __repr__ methods.
 Each kind of Musician instance should have a get_instrument method that returns string.
 Each kind of Musician instance should have a play_solo method that returns string.
-Stretch
 
-See tests marked “stretch” in supplied test suite.
-Make Musician “abstract” - aka an Abstract Base Class
-Add your own tests.
+# Time
+ This project took me 4 hours
+ Expected it to take me 3 hours
+ 
