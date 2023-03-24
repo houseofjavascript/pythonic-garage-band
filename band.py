@@ -58,13 +58,13 @@ class Drummer(Musician):
 
 
 class Band:
-    all_bands = []
-    print('this is my bands', all_bands)
+    instances = []
+    print('this is my bands', instances)
 
     def __init__(self, name, members):
         self.name = name
         self.members = members
-        Band.all_bands.append(self)
+        Band.instances.append(self)
 
     def __str__(self):
         return f"{self.name} band"
@@ -82,7 +82,8 @@ class Band:
 
     @classmethod
     def to_list(cls):
-        return cls.all_bands
+        return cls.instances
+
 
 
 
